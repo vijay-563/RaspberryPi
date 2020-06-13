@@ -33,6 +33,11 @@ echo "Updating PI..."
 apt-get update
 apt-get upgrade -y
 
+echo
+echo "Installin SpeedTest CLI..."
+apt-get install python-pip
+sudo pip install speedtest-cli
+
 # Copy fstab file
 echo "Copying fstab file to /etc..."
 cp fstab /etc
