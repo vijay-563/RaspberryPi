@@ -23,7 +23,7 @@ fi
 echo
 
 # Copy Aliases
-cat ./aliases.sh >> /home/pi/.bashrc
+cat ./aliases >> ~/.bashrc
 . ~/.bashrc
 echo "Copied aliases..."
 
