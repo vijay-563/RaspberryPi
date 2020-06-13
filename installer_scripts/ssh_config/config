@@ -1,0 +1,3 @@
+Host github.com
+    User pi
+    IdentityFile ~/.ssh/githubkey
