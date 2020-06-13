@@ -9,17 +9,17 @@ CURRENT_PASSWD=raspberry
 NEW_PASSWD=vijayakumar
 
 # Change the password
-echo "Changing the password..."
-(echo "$NEW_PASSWD"; echo "$NEW_PASSWD") | passwd
+#echo "Changing the password..."
+#(echo "$NEW_PASSWD"; echo "$NEW_PASSWD") | passwd
 
-ret=$?
+#ret=$?
 
-if [ $ret -ne 0 ]; then
-   echo "Unable to change the password.";
-   exit -1;
-else
-   echo "Password changed successfully..."
-fi
+#if [ $ret -ne 0 ]; then
+#   echo "Unable to change the password.";
+#   exit -1;
+#else
+#   echo "Password changed successfully..."
+#fi
 echo
 
 # Copy Aliases
