@@ -23,11 +23,10 @@ fi
 echo
 
 # Copy Aliases
-#cat ./aliases.sh >> /home/pi/.bashrc
-#. ~/.bashrc
-#echo "Copied aliases..."
+cat ./aliases.sh >> /home/pi/.bashrc
+. ~/.bashrc
+echo "Copied aliases..."
 
-exit 0;
 # Install packages
 echo "Updating PI..."
 apt-get update
