@@ -1,8 +1,4 @@
-proc            /proc           proc    defaults          0       0
-PARTUUID=b0bb9b2b-01  /boot           vfat    defaults          0       2
-PARTUUID=b0bb9b2b-02  /               ext4    defaults,noatime  0       1
-# a swapfile is not a swap partition, no line here
-#   use  dphys-swapfile swap[on|off]  for that
+
 
 /dev/disk/by-path/platform-3f980000.usb-usb-0:1.2:1.0-scsi-0:0:0:0-part1 /media/USBPORT1 auto auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0
 /dev/disk/by-path/platform-3f980000.usb-usb-0:1.4:1.0-scsi-0:0:0:0-part1 /media/USBPORT2 auto auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0
