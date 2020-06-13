@@ -23,9 +23,10 @@ fi
 echo
 
 # Copy Aliases
+echo "Copying aliases.."
 cat ./aliases >> ~/.bashrc
 . ~/.bashrc
-echo "Copied aliases..."
+echo
 
 # Install packages
 echo "Updating PI..."
@@ -35,7 +36,7 @@ apt-get upgrade -y
 echo
 echo "Installin SpeedTest CLI..."
 apt-get install python-pip -y
-sudo pip install speedtest-cli -y
+pip install speedtest-cli -y
 
 # Copy fstab file
 echo "Copying fstab file to /etc..."
