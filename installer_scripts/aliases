@@ -1,2 +1,4 @@
 alias cls='clear'
-
+alias st='speedtest-cli --simple'
+alias speedtest=speedtest-cli
+alias gitdir='cd /home/pi/GIT_SOURCE/RaspberryPi'
