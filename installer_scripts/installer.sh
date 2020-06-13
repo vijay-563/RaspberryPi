@@ -39,7 +39,7 @@ sudo pip install speedtest-cli -y
 
 # Copy fstab file
 echo "Copying fstab file to /etc..."
-cp fstab /etc
+cat ./fstab >>  /etc/fstab
 
 echo
 echo "Creating shared folders..."
