@@ -24,8 +24,8 @@ echo
 
 # Copy Aliases
 echo "Copying aliases.."
-cat ./aliases >> ~/.bashrc
-. ~/.bashrc
+cat ./aliases >> /home/pi/.bashrc
+. /home/pi/.bashrc
 echo
 
 # Install packages
@@ -44,10 +44,10 @@ cat ./fstab >>  /etc/fstab
 
 echo
 echo "Creating shared folders..."
-mkdir -m777 /media/USBHUB1_1
-mkdir -m777 /media/USBHUB2_1
-mkdir -m777 /media/USBHUB3_1
-mkdir -m777 /media/USBHUB4_1
+mkdir -m777 /media/USBHUB1
+mkdir -m777 /media/USBHUB2
+mkdir -m777 /media/USBHUB3
+mkdir -m777 /media/USBHUB4
 
 mkdir -m777 /media/USBPORT1
 mkdir -m777 /media/USBPORT2
