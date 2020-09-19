@@ -32,8 +32,13 @@ echo
 echo "Updating PI..."
 apt-get update
 apt-get upgrade -y
-
 echo
+
+# Configuring Bluetooth
+echo "Configuring Bluetooth.."
+sudo tar xzf ./bluetooth_config/bluetooth_pairings.tgz -C /
+echo 
+
 echo "Installin SpeedTest CLI..."
 apt-get install python-pip -y
 pip install speedtest-cli
