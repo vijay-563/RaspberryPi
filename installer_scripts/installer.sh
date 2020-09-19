@@ -37,6 +37,7 @@ echo
 # Configuring Bluetooth
 echo "Configuring Bluetooth.."
 sudo tar xzf ./bluetooth_config/bluetooth_pairings.tgz -C /
+sudo /etc/init.d/bluetooth restart
 echo 
 
 echo "Installin SpeedTest CLI..."
