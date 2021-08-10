@@ -62,3 +62,6 @@ mkdir -m777 /media/USBPORT4
 
 # Install Samba server
 sudo ./samba/smb_installer.sh
+
+# Refresh bashrc
+source ~/.bashrc
